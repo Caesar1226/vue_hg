@@ -1,0 +1,12 @@
+{
+  "public": {
+    "not_found": "奇怪，頁面好像消失了",
+    "return_home": "返回首頁",
+    "server_maintenance": "服務器正在維護中，請您稍後訪問"
+  },
+  "user": {
+    "register_error": "請輸入正確的註冊信息",
+    "register_success": "註冊成功",
+    "register_toLogin": "前往登錄"
+  }
+}

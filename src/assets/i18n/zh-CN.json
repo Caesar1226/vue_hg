@@ -1,0 +1,21 @@
+{
+  "public": {
+    "not_found": "奇怪，页面好像消失了",
+    "server_maintenance": "服务器正在维护中，请您稍后访问",
+    "phone": "手机",
+    "google": "谷歌"
+  },
+  "user": {
+    "register_error": "请输入正确的注册信息",
+    "register_success": "注册成功",
+    "register_toLogin": "前往登录"
+  },
+  "login":{
+    "title":"炫佳IPTV运营管理平台",
+    "success":"恭喜！"
+  },
+  "operation":{
+    "success": "操作成功！",
+    "fail": "操作失败！"
+  }
+}

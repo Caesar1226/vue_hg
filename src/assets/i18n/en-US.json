@@ -1,0 +1,18 @@
+{
+  "public": {
+    "not_found": "Strange, pages seem to disappear"
+  },
+  "user": {
+    "register_error": "Enter valid email address",
+    "register_success": "Register success",
+    "register_toLogin": "Login"
+  },
+  "login":{
+    "title":"IPTV Channel Management System",
+    "success":"login success!"
+  },
+  "operation":{
+    "success":"Successful operation!",
+    "fail": "Operation failed!"
+  }
+}
