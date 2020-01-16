@@ -207,8 +207,8 @@ export default {
 
         form: {
             typeId: {
-            value: "",
-            label: ""
+                value: "",
+                label: ""
             },
             rank: "",
             recommendDisplayType: "",
@@ -251,9 +251,13 @@ export default {
         /**
          * 选择推荐类型
          */
-        selectType(){
-
-        },
+        selectType(val) {
+            let obj = {};
+            obj = this.typeIds.find(item => {
+                return item.value === val;
+            });
+            this.form.typeId = obj;
+        },   
         /**
          * 跳转地址类型选定会自动获取对应的跳转推荐名称
         */
@@ -280,7 +284,7 @@ export default {
             })
             .then(rs => {
                 this.recommendDisplayNames = rs.data.data.records;
-                //console.log('recommendDisplayNames=>' + this.recommendDisplayNames)
+                
             })
             .catch(err => {});
         },
@@ -293,7 +297,7 @@ export default {
             file.picId = file.id;
             file.picType = "0";
             this.form.recomList.push(file);
-            console.log(this.form.recomList)
+            
         },
         /**
          * 显示选中图片

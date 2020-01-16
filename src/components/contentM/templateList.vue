@@ -102,7 +102,7 @@ export default {
     handleSelectionChange(val) {
       console.log(val,123)
     },
-    handleEdit (){
+    handleEdit(index, rows) {
       eventBus.$emit("editFrame", rows[index].id);
     },
     handleSizeChange(val){

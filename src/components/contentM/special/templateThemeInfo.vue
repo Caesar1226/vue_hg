@@ -97,7 +97,7 @@ export default {
     },
     created(){
         if(this.getContentId().action == 'edit'){
-            debugger
+            
             this.eidtTrue = true;
             this.form.bgimg = item;
             this.form.backgroundImage = this.imagesBaseUrl + item.picPath;

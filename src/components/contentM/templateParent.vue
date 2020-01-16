@@ -46,7 +46,7 @@ export default {
     eventBus.$on('templateList',()=>{
       this.currentTabComponent = "templateList"
     })
-    eventBus.$on('editFrame', v=>{
+    eventBus.$on("editFrame", v => {
       this.actionType.action = "edit";
       this.actionType.contentId = v;
       this.currentTabComponent = "createFrame";

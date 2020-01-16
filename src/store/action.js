@@ -114,4 +114,7 @@ export default {
     axios_get_contentInfo({ commit }, requestData = {}) {
         return http.post('sysadmin/content/special/getContentInfoList', requestData)
     },
+    axios_get_view({ commit }, requestData = {}) {
+        return http.get('sysadmin/content/special/view', requestData)
+    },
 }

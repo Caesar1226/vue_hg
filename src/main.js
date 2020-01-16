@@ -14,9 +14,12 @@ import { $getLanguage, isAuth } from './utils/index'
 import './utils/directives'
 import '../element-variables.scss'
 import './style/index.scss'
+import axios from './utils/axios'
+import vueAxios from 'vue-axios'
 
 Vue.use(VuexI18n.plugin, store)
 Vue.use(ElementUI, { size: 'small', zIndex: 3000 });
+Vue.prototype.axios = axios
 Vue.config.productionTip = false
 Vue.prototype.isAuth = isAuth
 // translations can be kept in separate files for each language
